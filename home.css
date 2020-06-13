@@ -90,7 +90,7 @@ body {
 
     .p-menu-nav li a:hover {
         background: #e5d057;
-        color: #4d4d4d;
+        color: #3d4d55 !important;
         padding: 10px
         margin 0px;
         border-radius: 15px 5px;
@@ -229,6 +229,16 @@ body {
         color: #fff;
     }
 
+    .card-schedule {
+        text-decoration: none;
+        color: #3d4d55;
+    }
+
+    .card-schedule:hover {
+        background-color: #8ed654;
+        text-decoration: none;
+    }
+
     .schedule-table {
         padding: 80px;
     }
@@ -298,6 +308,14 @@ body {
         text-align: center;
     }
 
+   
+    .ssmm:hover {
+        font-size: 30px;
+        color: #e5d057 !important;
+        padding: 5px;
+    }
+   
+
     /* Copyrights */
 
     .sect-7 {
@@ -308,6 +326,11 @@ body {
         text-align: center;
         font-size: 14px;
     }
+
+    .sect-7 p {
+        margin-top: 1rem;
+    }
+
 
 
 /* Media Queries */
@@ -358,7 +381,7 @@ body {
         text-align: center;
         color: #525252;
         font-family: Montserrat;
-        font-size: 12px;
+        font-size: 13px;
         padding: 10px;
     }
 
@@ -368,12 +391,23 @@ body {
         width: 100% !important;
     }
 
+    /* Schedule table */
+
+    .schedule-table {
+        padding: 80px 40px 80px 40px;
+    }
+    
+    
     /* Register content */
 
     .register-content {
         text-align: left;
         padding-right: 50px;
     }
+
+    .sect-5 h4 {
+        margin-top: 40px;
+    }    
 }
 
 /* Media Queries */
@@ -413,11 +447,21 @@ body {
 /* Small Mobiles */
 
 @media screen and (max-width: 600px) {
+   /* Header */
+
+   .logo {
+       padding: 30px;
+   }
+   
     /* Menu - Nav bar */
 
     .p-menu-nav {
-        text-align: left;
+        text-align: center;
         padding: 20px 0px 0px 0px;
+    }
+
+    .menu-align {
+        text-align: center;
     }
 
     /* Speaker cards */
@@ -441,10 +485,22 @@ body {
         font-size: 12px;
     }
 
+    .schedule-table {
+    padding: 40px 20px 40px 20px;
+    }
+
     /* Venue content */
 
     .venue-content {
         text-align: center;
+    }
+
+    .sect-4 {
+        padding: 40px 10px 40px 10px;
+    }
+
+    .sect-5 {
+        padding: 40px;
     }
 
 }
