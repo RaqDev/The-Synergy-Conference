@@ -446,7 +446,7 @@ body {
 /* Media Queries */
 /* Small Mobiles */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) and (min-width: 425px) {
    /* Header */
 
    .logo {
@@ -503,4 +503,169 @@ body {
         padding: 40px;
     }
 
+    /* Register Form */
+
+    .register-form {
+        display: block;
+    }
+
+    .form-fields {
+        padding: 6px;
+    }
+
+}
+
+/* Media Queries */
+/* Extra Small Mobiles */
+
+@media screen and (max-width: 424px) and (min-width: 321px) {
+    /* Header */
+
+    .logo {
+        padding: 20px;
+        font-size: 34px;
+    }
+
+    /* Menu - Nav bar */
+
+    .p-menu-nav {
+        text-align: center;
+        padding: 20px 0px 0px 0px;
+    }
+
+    .menu-align {
+        text-align: center;
+    }
+
+    /* Schedule table */
+
+    table {
+        width: 100%;
+        padding: 10px;
+    }
+        
+    tr th {
+        font-size: 12px;
+    }
+
+    tr td {
+        font-size: 12px;
+    }
+
+    .schedule-table {
+    padding: 40px 20px 40px 20px;
+    }
+
+    /* Venue content */
+
+    .venue-content {
+        text-align: center;
+    }
+
+    .sect-4 {
+        padding: 40px 10px 40px 10px;
+    }
+
+    .sect-5 {
+        padding: 40px;
+    }
+
+
+    /* Register Form */
+
+    .register-form {
+        display: block;
+    }
+
+    .form-fields {
+        padding: 6px;
+    }
+
+    /* Register Form */
+
+    .register-form {
+        display: block;
+    }
+
+    .form-fields {
+        padding: 6px;
+    }
+}
+
+/* Media Queries */
+/* Extra Small Mobiles 320px */
+
+@media screen and (max-width: 320px) {
+    /* Header */
+
+    #header {
+        padding: 60px 30px;
+    }
+
+    .logo {
+        padding: 25px;
+        font-size: 30px;
+    }
+
+    /* Menu - Nav bar */
+
+    .p-menu-nav {
+        text-align: center;
+        padding: 20px 0px 0px 0px;
+    }
+
+    .menu-align {
+        text-align: center;
+    }
+
+    /* Speakers */
+
+    #speaker-cards {
+        padding: 60px 20px;
+    }
+
+
+    /* Schedule table */
+
+    table {
+        width: 100%;
+        padding: 10px;
+    }
+        
+    tr th {
+        font-size: 10px;
+        padding: 10px 8px;
+    }
+
+    tr td {
+        font-size: 10px;
+    }
+
+    .schedule-table {
+    padding: 40px 20px 40px 20px;
+    }
+
+    /* Venue content */
+
+    .venue-content {
+        text-align: center;
+    }
+
+    .sect-4 {
+        padding: 40px 10px 40px 10px;
+    }
+
+    /* Register Content */
+
+    .sect-5 {
+        padding: 25px;
+    }
+
+    .register-form {
+        padding: 15px;
+    }
+
+    .form-fields {
+        padding: 6px;
+    }
 }
