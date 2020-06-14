@@ -405,6 +405,10 @@ body {
         padding-right: 50px;
     }
 
+    .form-fields {
+        padding-right: 0px;
+    }
+
     .sect-5 h4 {
         margin-top: 40px;
     }    
@@ -585,6 +589,7 @@ body {
 
     .register-form {
         display: block;
+        padding: 10px;
     }
 
     .form-fields {
