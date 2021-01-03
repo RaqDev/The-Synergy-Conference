@@ -1,676 +1,677 @@
 * {
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
 }
+
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* html */
 
 html {
-    scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 /* Body */
 
 body {
-    font-family: "Montserrat", Lato, Arial, Helvetica, sans-serif;
+	font-family: "Montserrat", sans-serif;
 }
 
+/* Header */
 
-    /* Header */
+#header {
+	background: #3d4d55;
+	padding: 60px 60px;
+}
 
-    #header {
-        background: #3d4d55;
-        padding: 60px 60px;
-    }
+.logo-hdr {
+	padding: 0px;
+}
 
-    .logo-hdr {
-        padding: 0px;
-    }
+.logo {
+	padding: 40px;
+	background: #f7a809;
+	border-radius: 25px 2px;
+	float: right;
+}
 
-    .logo {
-        padding: 40px;
-        background: #f7a809;
-        border-radius: 25px 2px;
-        float: right;
-    }
+.logo a {
+	font-family: Lato;
+	text-transform: uppercase;
+	color: #474747;
+}
 
-    .logo a{
-        font-family: Lato;
-        text-transform: uppercase;
-        color: #474747;
-    }
+.logo a:hover {
+	font-family: Lato;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #966605;
+}
 
-    .logo a:hover{
-        font-family: Lato;
-        text-decoration: none;
-        text-transform: uppercase;
-        color: #966605;
-    }
+/* Date */
 
-    /* Date */
+.info {
+	font-family: Lato;
+	font-style: normal;
+	font-size: 24px;
+	color: #fff;
+	background-color: #088889;
+	margin-top: 20px;
+	padding: 10px;
+	border-radius: 15px 5px;
+	float: left;
+}
 
-    .info {
-        font-family: Lato;
-        font-style: normal;
-        font-size: 24px;
-        color: #fff;
-        background-color: #088889;
-        margin-top: 20px;
-        padding: 10px;
-        border-radius: 15px 5px;
-        float: left;
-    }
+/* Nav Bar*/
 
-    /* Nav Bar*/
+.p-menu-nav {
+	list-style: none;
+	text-align: center;
+	display: inline-block;
+	padding: 40px 140px 0px 0px;
+}
 
-    .p-menu-nav {
-        list-style: none;
-        text-align: center;
-        display: inline-block;
-        padding: 40px 110px 0px 0px;
-    }
+.p-menu-nav li {
+	position: relative;
+	display: inline-block;
+	font-family: gotham;
+	font-style: bolder;
+	font-size: 16px;
+}
 
-    .p-menu-nav li {
-        position: relative;
-        display: inline-block;
-        font-family: gotham;
-        font-style: bolder;
-        font-size: 16px;
-    }
+.p-menu-nav li a {
+	font-family: Montserrat;
+	text-decoration: none;
+	display: block;
+	padding: 12px;
+	color: #ffffff;
+}
 
-    .p-menu-nav li a {
-        font-family: Montserrat;
-        text-decoration: none;
-        display: block;
-        padding: 12px;
-        color: #ffffff;
-        
-    }
+.p-menu-nav li a:hover {
+	background: #e5d057;
+	color: #3d4d55 !important;
+	padding: 10px margin 0px;
+	border-radius: 15px 5px;
+	transition: all .4s;
+}
 
-    .p-menu-nav li a:hover {
-        background: #e5d057;
-        color: #3d4d55 !important;
-        padding: 10px
-        margin 0px;
-        border-radius: 15px 5px;
-        transition: all .4s;
-    }
+/* Section 1 */
 
-    /* Section 1 */
+.sect-1 {
+	background: #3d4d55;
+}
 
-    .sect-1 {
-        background: #3d4d55;
-    }
+.sect-1 h3 {
+	text-align: center;
+	color: #0dd0d1;
+	font-family: Lato;
+	font-size: 32px;
+	padding-top: 40px;
+}
 
-    .sect-1 h3 {
-        text-align: center;
-        color: #0dd0d1;
-        font-family: Lato;
-        font-size: 32px;
-        padding-top: 40px;
-    }
+.sect-1 p {
+	text-align: center;
+	color: #6faa69;
+	font-family: Lato;
+	font-size: 22px;
+}
 
-    .sect-1 p {
-        text-align: center;
-        color: #6faa69;
-        font-family: Lato;
-        font-size: 22px;
-    }
+.button-1 {
+	padding: 10px;
+	text-align: center;
+}
 
-    .button-1 {
-        padding: 10px;
-        text-align: center;
-    }
+.btn-1 {
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	font-family: Montserrat;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-size: 20px;
+	border: #e5d057 solid 2px;
+	border-radius: 40px;
+	cursor: pointer;
+	padding: 10px;
+}
 
-    .btn-1 {
-        display: inline-block;
-        position: relative;
-        text-align: center;
-        text-decoration: none;
-        font-family: Montserrat;
-        text-transform: uppercase;
-        color: #ffffff;
-        font-size: 20px;
-        border: #e5d057 solid 2px;
-        border-radius: 40px;
-        cursor: pointer;
-        padding: 10px;
-    }
+.btn-1:hover {
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	font-family: Montserrat-medium;
+	font-style: bolder;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-size: 20px;
+	border: #088889 solid 2px;
+	background-color: #088889;
+	border-radius: 40px;
+	cursor: pointer;
+}
 
-    .btn-1:hover {
-        display: inline-block;
-        position: relative;
-        text-align: center;
-        text-decoration: none;
-        font-family: Montserrat-medium;
-        font-style: bolder;
-        text-transform: uppercase;
-        color: #ffffff;
-        font-size: 20px;
-        border: #088889 solid 2px;
-        background-color: #088889;
-        border-radius: 40px;
-        cursor: pointer;
-    }
+/* Section 2 */
 
-    /* Section 2 */
+/* Speaker Title */
 
-    /* Speaker Title */
+.sect-2 {
+	background: linear-gradient(to right, #f7a809, #e5d057);
+}
 
-    .sect-2 {
-        background: linear-gradient(to right, #f7a809, #e5d057);
-    }
+.speaker-title,
+.schedule-title,
+.venue-title,
+.register-title {
+	text-align: center;
+	color: #525252;
+	font-family: Montserrat-medium;
+	font-size: 28px;
+	padding: 25px 0px 10px 0px;
+}
 
-    .speaker-title, .schedule-title, .venue-title, .register-title {
-        text-align: center;
-        color: #525252;
-        font-family: Montserrat-medium;
-        font-size: 28px;
-        padding: 25px 0px 10px 0px;
-    }
+.speaker-text,
+.schedule-text,
+.venue-text,
+.register-text {
+	text-align: center;
+	color: #525252;
+	font-family: Montserrat;
+	font-size: 16px;
+	padding: 10px;
+}
 
-    .speaker-text, .schedule-text, .venue-text, .register-text {
-        text-align: center;
-        color: #525252;
-        font-family: Montserrat;
-        font-size: 16px;
-        padding: 10px;
-    }
+/* Speaker Cards */
 
-    /* Speaker Cards */
+#speaker-cards {
+	padding: 60px 40px;
+}
 
-    #speaker-cards {
-        padding: 60px 40px;
-    }
+.col-gap {
+	column-gap: 50px;
+	row-gap: 50px;
+}
 
-    .col-gap {
-        column-gap: 50px;
-        row-gap: 50px;
-    }
+.card-body {
+	text-align: center;
+}
 
-    .card-body {
-        text-align: center;
-    }
+.card-text {
+	color: #525252;
+}
 
-    .card-text {
-        color: #525252;
-    }
+/* Section 3 */
 
-    /* Section 3 */
+/* Schedule table */
 
-    /* Schedule table */
+table {
+	width: 100%;
+	padding: 15px;
+}
 
-    table {
-        width: 100%;
-        padding: 15px;
-    }
+table tbody tr th {
+	border: 1px solid #6faa69;
+	color: #525252;
+	border-collapse: collapse;
+	line-height: 1.75pt;
+}
 
-    table tbody tr th {
-        border: 1px solid #6faa69;
-        color: #525252;
-        border-collapse: collapse;
-        line-height: 1.75pt;
-    }
-    
-    tr td {
-        padding: 10px 15px;
-        border: 1.5px solid #6faa69;
-        color: #525252;
-    }
-    
-    tr th {
-        padding: 10px 15px;
-    }
-    
-    table thead tr th {
-        background-color: #088889;
-        padding-bottom: 10px;
-        color: #fff;
-    }
+tr td {
+	padding: 10px 15px;
+	border: 1.5px solid #6faa69;
+	color: #525252;
+}
 
-    .card-schedule {
-        text-decoration: none;
-        color: #3d4d55;
-    }
+tr th {
+	padding: 10px 15px;
+}
 
-    .card-schedule:hover {
-        background-color: #8ed654;
-        text-decoration: none;
-    }
+table thead tr th {
+	background-color: #088889;
+	padding-bottom: 10px;
+	color: #fff;
+}
 
-    .schedule-table {
-        padding: 80px;
-    }
+.card-schedule {
+	text-decoration: none;
+	color: #3d4d55;
+}
 
-    /* Section 4 */
+.card-schedule:hover {
+	background-color: #8ed654;
+	text-decoration: none;
+}
 
-    /* Venue */
+.schedule-table {
+	padding: 80px;
+}
 
-    .sect-4 {
-        padding: 80px;
-        display: inline-block;
-        font-family: Montserrat;
-        color: #525252;
-        text-align: left;
-    }
+/* Section 4 */
 
-    .sect-4 p{
-        font-size: 16px;
-        padding: 10px;
-        display: block;
-    }
+/* Venue */
 
-    /* Section 5 */
+.sect-4 {
+	padding: 80px;
+	display: inline-block;
+	font-family: Montserrat;
+	color: #525252;
+	text-align: left;
+}
 
-    /* Register form */
+.sect-4 p {
+	font-size: 16px;
+	padding: 10px;
+	display: block;
+}
 
-    .sect-5 {
-    padding: 80px;
-    display: inline-block;
-    font-family: Montserrat;
-    color:  #525252; 
-    text-align: center;
-    }
+/* Section 5 */
 
-    .sect-5 h4 {
-        font-family: Montserrat-regular;
-    }
+/* Register form */
 
-    /* Form */
+.sect-5 {
+	padding: 80px;
+	display: inline-block;
+	font-family: Montserrat;
+	color: #525252;
+	text-align: center;
+}
 
-    .r-form {
-        padding: 40px;
-    }
+.sect-5 h4 {
+	font-family: Montserrat-regular;
+}
 
-    .register-form {
-        padding: 30px;
-        display: inline-block;
-        font-family: Montserrat-regular;
-        color: #525252;
-        border: 2px solid #6faa69;
-        border-radius: 30px 10px;
-    }
+/* Form */
 
-    .form-fields {
-        padding-right: 30px;
-        color: #3d4d55;
-        font-family: Montserrat-regular;
-    }
+.r-form {
+	padding: 40px;
+}
 
-    /* Footer */
+.register-form {
+	padding: 30px;
+	display: inline-block;
+	font-family: Montserrat-regular;
+	color: #525252;
+	border: 2px solid #6faa69;
+	border-radius: 30px 10px;
+}
 
-    .sect-6 {
-        background-color: #3d4d55;
-        padding: 30px;
-        font-family: Montserrat-regular;
-        color: #f7a809;
-        text-align: center;
-    }
+.form-fields {
+	padding-right: 30px;
+	color: #3d4d55;
+	font-family: Montserrat-regular;
+}
 
-   
-    .ssmm:hover {
-        font-size: 30px;
-        color: #e5d057 !important;
-        padding: 5px;
-    }
-   
+/* Footer */
 
-    /* Copyrights */
+.sect-6 {
+	background-color: #3d4d55;
+	padding: 30px;
+	font-family: Montserrat-regular;
+	color: #f7a809;
+	text-align: center;
+}
 
-    .sect-7 {
-        background-color: #bdbdbd;
-        padding: 8px;
-        font-family: Montserrat-light;
-        color: #404040;
-        text-align: center;
-        font-size: 14px;
-    }
+.ssmm:hover {
+	font-size: 30px;
+	color: #e5d057 !important;
+	padding: 5px;
+}
 
-    .sect-7 p {
-        margin-top: 1rem;
-    }
+/* Copyrights */
 
+.sect-7 {
+	background-color: #bdbdbd;
+	padding: 8px;
+	font-family: Montserrat-light;
+	color: #404040;
+	text-align: center;
+	font-size: 14px;
+}
 
+.sect-7 p {
+	margin-top: 1rem;
+}
 
 /* Media Queries */
 /* Laptops */
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-    /* Nav Bar */
-    .p-menu-nav {
-        padding: 40px 0px 0px 0px;
-    }
+	/* Nav Bar */
+	.p-menu-nav {
+		padding: 40px 0px 0px 0px;
+	}
 
-    .p-menu-nav li {
-        font-size: 15px;
-    }
+	.p-menu-nav li {
+		font-size: 15px;
+	}
 }
 
 /* Media Queries */
 /* Tablets */
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    /* Header */
-    .logo-hdr {
-        padding-left: 40px;
-    }
+	/* Header */
+	.logo-hdr {
+		padding-left: 40px;
+	}
 
-    .logo {
-        font-size: 24px;
-        padding: 30px;
-    }
+	.logo {
+		font-size: 24px;
+		padding: 30px;
+	}
 
-    .info {
-        font-size: 18px;
-    }
+	.info {
+		font-size: 18px;
+	}
 
-    /* Nav Bar*/
-    .p-menu-nav {
-        padding: 10px 0px 0px 0px;
-        width: 150%;
-        text-align: left;
-    }
+	/* Nav Bar*/
+	.p-menu-nav {
+		padding: 10px 0px 0px 0px;
+		width: 150%;
+		text-align: left;
+	}
 
-    .p-menu-nav li a {
-        padding: 10px;
-        font-size: 11px;
-    }
+	.p-menu-nav li a {
+		padding: 10px;
+		font-size: 11px;
+	}
 
-    .speaker-text, .schedule-text, .venue-text, .register-text {
-        text-align: center;
-        color: #525252;
-        font-family: Montserrat;
-        font-size: 13px;
-        padding: 10px;
-    }
+	.speaker-text,
+	.schedule-text,
+	.venue-text,
+	.register-text {
+		text-align: center;
+		color: #525252;
+		font-family: Montserrat;
+		font-size: 13px;
+		padding: 10px;
+	}
 
-    /* Speaker cards */
+	/* Speaker cards */
 
-    .card-size{
-        width: 100% !important;
-    }
+	.card-size {
+		width: 100% !important;
+	}
 
-    /* Schedule table */
+	/* Schedule table */
 
-    .schedule-table {
-        padding: 80px 40px 80px 40px;
-    }
-    
-    
-    /* Register content */
+	.schedule-table {
+		padding: 80px 40px 80px 40px;
+	}
 
-    .register-content {
-        text-align: left;
-        padding-right: 50px;
-    }
+	/* Register content */
 
-    .form-fields {
-        padding-right: 0px;
-    }
+	.register-content {
+		text-align: left;
+		padding-right: 50px;
+	}
 
-    .sect-5 h4 {
-        margin-top: 40px;
-    }    
+	.form-fields {
+		padding-right: 0px;
+	}
+
+	.sect-5 h4 {
+		margin-top: 40px;
+	}
 }
 
 /* Media Queries */
 /* Mobiles */
 
 @media screen and (min-width: 600px) and (max-width: 767px) {
-    /* Header */
+	/* Header */
 
-    .logo {
-        position: relative;
-        float: left;
-        padding: 30px; 
-    }
+	.logo {
+		position: relative;
+		float: left;
+		padding: 30px;
+	}
 
-    /* Nav Bar */
+	/* Nav Bar */
 
-    .p-menu-nav {
-        padding: 10px;
-        text-align: left;
-    }
+	.p-menu-nav {
+		padding: 10px;
+		text-align: left;
+	}
 
-    /* Speaker cards */
+	/* Speaker cards */
 
-    .card-size {
-        width: 100% !important;
-    }
-    
-    /* Venue content */
+	.card-size {
+		width: 100% !important;
+	}
 
-    .venue-content {
-        text-align: center;
-    }
+	/* Venue content */
+
+	.venue-content {
+		text-align: center;
+	}
 }
-
 
 /* Media Queries */
 /* Small Mobiles */
 
 @media screen and (max-width: 600px) and (min-width: 425px) {
-   /* Header */
+	/* Header */
 
-   .logo {
-       padding: 30px;
-   }
-   
-    /* Menu - Nav bar */
+	.logo {
+		padding: 30px;
+	}
 
-    .p-menu-nav {
-        text-align: center;
-        padding: 20px 0px 0px 0px;
-    }
+	/* Menu - Nav bar */
 
-    .menu-align {
-        text-align: center;
-    }
+	.p-menu-nav {
+		text-align: center;
+		padding: 20px 0px 0px 0px;
+	}
 
-    /* Speaker cards */
+	.menu-align {
+		text-align: center;
+	}
 
-    .card-size {
-        width: 100% !important;
-    }
+	/* Speaker cards */
 
-    /* Schedule table */
+	.card-size {
+		width: 100% !important;
+	}
 
-    table {
-        width: 100%;
-        padding: 10px;
-    }
-        
-    tr th {
-        font-size: 12px;
-    }
+	/* Schedule table */
 
-    tr td {
-        font-size: 12px;
-    }
+	table {
+		width: 100%;
+		padding: 10px;
+	}
 
-    .schedule-table {
-    padding: 40px 20px 40px 20px;
-    }
+	tr th {
+		font-size: 12px;
+	}
 
-    /* Venue content */
+	tr td {
+		font-size: 12px;
+	}
 
-    .venue-content {
-        text-align: center;
-    }
+	.schedule-table {
+		padding: 40px 20px 40px 20px;
+	}
 
-    .sect-4 {
-        padding: 40px 10px 40px 10px;
-    }
+	/* Venue content */
 
-    .sect-5 {
-        padding: 40px;
-    }
+	.venue-content {
+		text-align: center;
+	}
 
-    /* Register Form */
+	.sect-4 {
+		padding: 40px 10px 40px 10px;
+	}
 
-    .register-form {
-        display: block;
-    }
+	.sect-5 {
+		padding: 40px;
+	}
 
-    .form-fields {
-        padding: 6px;
-    }
+	/* Register Form */
 
+	.register-form {
+		display: block;
+	}
+
+	.form-fields {
+		padding: 6px;
+	}
 }
 
 /* Media Queries */
 /* Extra Small Mobiles */
 
 @media screen and (max-width: 424px) and (min-width: 321px) {
-    /* Header */
+	/* Header */
 
-    .logo {
-        padding: 20px;
-        font-size: 34px;
-    }
+	.logo {
+		padding: 20px;
+		font-size: 34px;
+	}
 
-    /* Menu - Nav bar */
+	/* Menu - Nav bar */
 
-    .p-menu-nav {
-        text-align: center;
-        padding: 20px 0px 0px 0px;
-    }
+	.p-menu-nav {
+		text-align: center;
+		padding: 20px 0px 0px 0px;
+	}
 
-    .menu-align {
-        text-align: center;
-    }
+	.menu-align {
+		text-align: center;
+	}
 
-    /* Schedule table */
+	/* Schedule table */
 
-    table {
-        width: 100%;
-        padding: 10px;
-    }
-        
-    tr th {
-        font-size: 12px;
-    }
+	table {
+		width: 100%;
+		padding: 10px;
+	}
 
-    tr td {
-        font-size: 12px;
-    }
+	tr th {
+		font-size: 12px;
+	}
 
-    .schedule-table {
-    padding: 40px 20px 40px 20px;
-    }
+	tr td {
+		font-size: 12px;
+	}
 
-    /* Venue content */
+	.schedule-table {
+		padding: 40px 20px 40px 20px;
+	}
 
-    .venue-content {
-        text-align: center;
-    }
+	/* Venue content */
 
-    .sect-4 {
-        padding: 40px 10px 40px 10px;
-    }
+	.venue-content {
+		text-align: center;
+	}
 
-    .sect-5 {
-        padding: 40px;
-    }
+	.sect-4 {
+		padding: 40px 10px 40px 10px;
+	}
 
+	.sect-5 {
+		padding: 40px;
+	}
 
-    /* Register Form */
+	/* Register Form */
 
-    .register-form {
-        display: block;
-    }
+	.register-form {
+		display: block;
+	}
 
-    .form-fields {
-        padding: 6px;
-    }
+	.form-fields {
+		padding: 6px;
+	}
 
-    /* Register Form */
+	/* Register Form */
 
-    .register-form {
-        display: block;
-        padding: 10px;
-    }
+	.register-form {
+		display: block;
+		padding: 10px;
+	}
 
-    .form-fields {
-        padding: 6px;
-    }
+	.form-fields {
+		padding: 6px;
+	}
 }
 
 /* Media Queries */
 /* Extra Small Mobiles 320px */
 
 @media screen and (max-width: 320px) {
-    /* Header */
+	/* Header */
 
-    #header {
-        padding: 60px 30px;
-    }
+	#header {
+		padding: 60px 30px;
+	}
 
-    .logo {
-        padding: 25px;
-        font-size: 30px;
-    }
+	.logo {
+		padding: 25px;
+		font-size: 30px;
+	}
 
-    /* Menu - Nav bar */
+	/* Menu - Nav bar */
 
-    .p-menu-nav {
-        text-align: center;
-        padding: 20px 0px 0px 0px;
-    }
+	.p-menu-nav {
+		text-align: center;
+		padding: 20px 0px 0px 0px;
+	}
 
-    .menu-align {
-        text-align: center;
-    }
+	.menu-align {
+		text-align: center;
+	}
 
-    /* Speakers */
+	/* Speakers */
 
-    #speaker-cards {
-        padding: 60px 20px;
-    }
+	#speaker-cards {
+		padding: 60px 20px;
+	}
 
+	/* Schedule table */
 
-    /* Schedule table */
+	table {
+		width: 100%;
+		padding: 10px;
+	}
 
-    table {
-        width: 100%;
-        padding: 10px;
-    }
-        
-    tr th {
-        font-size: 10px;
-        padding: 10px 8px;
-    }
+	tr th {
+		font-size: 10px;
+		padding: 10px 8px;
+	}
 
-    tr td {
-        font-size: 10px;
-    }
+	tr td {
+		font-size: 10px;
+	}
 
-    .schedule-table {
-    padding: 40px 20px 40px 20px;
-    }
+	.schedule-table {
+		padding: 40px 20px 40px 20px;
+	}
 
-    /* Venue content */
+	/* Venue content */
 
-    .venue-content {
-        text-align: center;
-    }
+	.venue-content {
+		text-align: center;
+	}
 
-    .sect-4 {
-        padding: 40px 10px 40px 10px;
-    }
+	.sect-4 {
+		padding: 40px 10px 40px 10px;
+	}
 
-    /* Register Content */
+	/* Register Content */
 
-    .sect-5 {
-        padding: 25px;
-    }
+	.sect-5 {
+		padding: 25px;
+	}
 
-    .register-form {
-        padding: 15px;
-    }
+	.register-form {
+		padding: 15px;
+	}
 
-    .form-fields {
-        padding: 6px;
-    }
+	.form-fields {
+		padding: 6px;
+	}
 }
